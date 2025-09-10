@@ -15,7 +15,7 @@ legit_sample = np.load("legit_sample.npy")
 
 st.write("Enter transaction details or load a sample transaction:")
 
-n_features = 30  # Time + V1..V28 + Amount
+n_features = 5  # Time + V1..V28 + Amount
 inputs = [0.0] * n_features
 
 # Load real fraud/legit samples
